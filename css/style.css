@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: auto;
+}
+
+#header,#foter {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    background: burlywood;
+    color: rgb(44, 44, 44);
+    line-height: 50px;
+    margin-bottom: 50px;
+    float: left;
+}
+#main {
+width: 40%;
+margin-left: 10%;
+background: bisque;
+border: 1px solid black;
+padding: 20px 2.5%;
+float: left;
+margin-right: 1%;
+
+position: relative;
+}
+#foter {
+margin-bottom: 0px;
+margin-top: 100%;
+border-bottom: 0;
+border-top:2px solid black ;
+position: relative;
+bottom: 0;
+left: 0;
+}
+#naf {
+list-style: none;
+display: block;
+float: left;
+width: 50%;
+margin-left: 25%;
+text-align: center;
+margin-bottom: 50px;
+
+
+}
+#naf li {
+    display: inline;
+    background: bisque;
+    border: 1px solid black;
+    padding: 0 20px;
+    cursor: pointer;
+
+}
+#naf li:not(:last-of-type) {
+margin-right: 20px;
+}
+#naf li:hover {
+color: red;
+background: rgb(251, 251, 6);
+border-radius: 5px;
+border-color: red;
+}
+
+#s {
+width: 20%;
+padding: 20px 2.5%;
+margin-right: 10%;
+background: bisque;
+border: 1px solid black;
+float: left;
+position: relative;
+
+}
+
+#some {
+    background: red;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+  left: 95%;
+  top: 70%;
+  right: 10%;
+  position: fixed;
+ 
+}
+
+#naf li button {
+    border-radius: 0;
+    border: none;
+    background:bisque ;
+}
+#naf li button:hover {
+    background: rgb(251, 251, 6);
+}
+
+#naf li a {
+    color: black;
+    border-radius: 0;
+    background:bisque ;
+    text-decoration: none;
+}
+#naf li a:hover {
+    background: rgb(251, 251, 6);
+}
